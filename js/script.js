@@ -1,12 +1,12 @@
 function calc () {
-    let add = '+';
-    let sub = '-';
-    let mult = '*';
-    let div = '/';
+    const add = '+';
+    const sub = '-';
+    const mult = '*';
+    const div = '/';
 
-    let operation = prompt (`Здарова, двоечник. Не можешь два числа сложить - отнять? Лады,  помогу. Выбери операцию: (${add}, ${sub}, ${mult}, ${div})`);
-    let num1 = +prompt ('Клацни какое-то число');
-    let num2 = +prompt ('Ну ты понял.. Нужно еще одно');
+    const operation = prompt (`Здарова, двоечник. Не можешь два числа сложить - отнять? Лады,  помогу. Выбери операцию: (${add}, ${sub}, ${mult}, ${div})`);
+    const num1 = +prompt ('Клацни какое-то число');
+    const num2 = +prompt ('Ну ты понял.. Нужно еще одно');
 
     let result;
 
